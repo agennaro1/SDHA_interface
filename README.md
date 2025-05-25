@@ -205,6 +205,6 @@ tonygennaro@gmail.com
 
 ---
 ## Atribuciones y marcas
-Home Broker una marca registrada de Estudio Gallo S.R.L. Agradecemos a Diego Degese  por crear y compartir pyhomebroker y a Franco Lamas por compratir SHDA
+Home Broker una marca registrada de Estudio Gallo S.R.L. Agradecemos a Diego Degese  por crear y compartir pyhomebroker y a Franco Lamas por compartir SHDA
 ## DISCLAIMER
 La información es mostrada “tal cual es”, puede ser incorrecta o contener errores, eso es responsabilidad de cada sitio. No somos responsables por el uso indebido de los Scripts.
