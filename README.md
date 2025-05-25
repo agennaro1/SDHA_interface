@@ -1,4 +1,4 @@
-# Monitoreo Tenencias IEB+
+# Monitoreo de Portfolio personal 
 
 Una aplicación de escritorio desarrollada en Python para monitorear y visualizar tenencias de instrumentos financieros en tiempo real, conectándose a la API de SHDA (Sistema de Homebanking para Agentes).
 
@@ -36,6 +36,7 @@ pip install PyQt5 pandas numpy
 
 ### Librerías Adicionales
 - `SHDA`: Librería para conexión con el sistema SHDA (debe estar disponible en el entorno)
+- Gracias por compartir @franco-lamas
 
 ## Configuración
 
@@ -55,11 +56,29 @@ La aplicación utiliza un archivo `config.json` que se crea automáticamente en 
 **⚠️ Importante**: Edite este archivo con sus credenciales reales antes de usar la aplicación.
 
 ### Configuración de Parámetros
-- **host**: Dirección del servidor SHDA
+- **host**: Numero de ALYC 
 - **dni**: Documento Nacional de Identidad
 - **user**: Usuario de acceso
 - **password**: Contraseña de acceso
 - **comitente**: Código de comitente
+
+### Broker	                   Byma Id
+- Buenos Aires Valores S.A.	    12
+- Proficio Investment S.A.	    20
+- Tomar Inversiones S.A.	    81
+- Bell Investments S.A.	        88
+- RIG Valores S.A.	            91
+- Soluciones Financieras S.A.	94
+- Maestro y Huerres S.A.         127
+- Bolsa de Comercio del Chaco	153
+- Prosecurities S.A.	        164
+- Servente y Cia. S.A.	        186
+- Alfy Inversiones S.A.	        201
+- Invertir en Bolsa S.A.	    203
+- Futuro Bursátil S.A.	        209
+- Sailing S.A.	                233
+- Negocios Financieros y Bursátiles S.A. (Cocos Capital)	265
+- Veta Capital S.A.	           284
 
 ## Instalación y Uso
 
@@ -70,6 +89,8 @@ La aplicación utiliza un archivo `config.json` que se crea automáticamente en 
 pip install PyQt5 pandas numpy
 
 # Asegurar que la librería SHDA esté disponible
+
+pip install SHDA --upgrade --no-cache-dir
 ```
 
 ### 2. Configuración Inicial
@@ -98,7 +119,7 @@ python tenencias.py
 - **Opciones** (TIPO: 5)
 - **Letras** (TIPO: 6)
 - **CEDEARs** (TIPO: 7)
-- **Efectivo** (Cash)
+
 
 ### Cálculos Automáticos
 
@@ -174,12 +195,16 @@ Para contribuir al proyecto:
 
 ## Licencia
 
-[Especificar licencia según corresponda]
+MIT License
+la mayor parte del codigo fue creado por IA
+
 
 ## Contacto
 
 tonygennaro@gmail.com
 
 ---
-
-**Nota**: Esta aplicación está diseñada para uso con el sistema SHDA. Asegurar tener los permisos y accesos apropiados antes de su uso.
+## Atribuciones y marcas
+Home Broker una marca registrada de Estudio Gallo S.R.L. Agradecemos a Diego Degese  por crear y compartir pyhomebroker y a Franco Lamas por compratir SHDA
+## DISCLAIMER
+La información es mostrada “tal cual es”, puede ser incorrecta o contener errores, eso es responsabilidad de cada sitio. No somos responsables por el uso indebido de los Scripts.
